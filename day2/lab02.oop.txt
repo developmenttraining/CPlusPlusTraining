@@ -1,0 +1,42 @@
+/* Aþaðýda tanýmý yapýlan class'ý yazýnýz
+	Class Date
+		private
+			gun
+			ay 
+			yil
+
+		public
+			 Date()
+			 Date(g, a, y)
+			 goster()
+			 addDay(int day) //gunu day kadar ileri geri atar. Yeni tarih netleþir
+			 addMonth(int month) //ayý month kadar ileri geri atar. Yeni tarih netleþir
+			 addYear(int year)  //year year kadar ileri geri atar. Yeni tarih netleþir
+
+			 //Tum private variable set get olacak
+			 //Limit kontrolleri yapýlacak.
+
+*/
+// Date d(2022,1,1); // 1 ocak , 1 birinci gun
+
+
+
+
+
+
+
+class Date {
+private:
+	const int* aylar;
+
+public:
+	Date() {
+		aylar = new int[] {31, 28, 31};
+	}
+	Date(int y, int a, int g) {
+		aylar = new int[] {31, 28, 31};
+	}
+	~Date(){
+		delete[] aylar;
+	}
+};

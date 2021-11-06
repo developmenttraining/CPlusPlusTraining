@@ -1,0 +1,5 @@
+//Pointer Calismasi
+
+//strcat fonksiyonunu yazýnýz. prototipini internetten kopyalayabilirsiniz.
+
+//strstr fonksiyonunu yazýnýz. prototipini internetten kopyalayabilirsiniz.
